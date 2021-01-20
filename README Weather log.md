@@ -6,3 +6,4 @@ WEATHER LOG
 1/17/2021 28 degrees and hazy
 1/18/2021 late check in. 36 degrees and partly cloudy.  My head hurts.
 1/19/2021 about 28 degrees but super windy so it felt colder.
+1/20/2021 34 degrees and sunny
