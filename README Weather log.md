@@ -9,3 +9,4 @@ WEATHER LOG
 1/20/2021 34 degrees and sunny
 1/21/2021 30 degrees and sunny.  I had to take My freind to the emergency room yesterday, and that set back my work.  I'll have to work twice as hard today.  lets do this!
 1/22/2021 39 degrees and cloudy.   Moving today.  Why did all life events converge on this week?
+1/23/2021 35 degrees and mostly cloudy.  It was raining all last night.
