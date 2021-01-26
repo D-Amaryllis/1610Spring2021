@@ -12,3 +12,4 @@ WEATHER LOG
 1/23/2021 35 degrees and mostly cloudy.  It was raining all last night.
 1/24/2021 29 degrees and mostly cloudy.
 1/25/2021 28 degrees and mostly cloudy
+1/26/2021 29 degrees and SNOWING!
