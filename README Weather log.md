@@ -14,3 +14,4 @@ WEATHER LOG
 1/25/2021 28 degrees and mostly cloudy
 1/26/2021 29 degrees and SNOWING!
 1/27/2021 27 degrees and cloudy.  I feel like I'm so behind on this class becuase of all the moving drama that has been happening this week.  Time to crack down.
+1/28/2021 46 degrees and cloudy. Very late check in.  What an insane day.
