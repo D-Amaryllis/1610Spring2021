@@ -18,3 +18,4 @@ WEATHER LOG
 1/29/2021 44 degrees mostly cloudy.  My body hurts so badly.  crying face.
 1/31/2021 28 degrees, clear skies.
 2/01/2021 its my brothers Birthday today. 32 degrees mostly cloudy.
+2/02/2021 44 degrees, mostly cloudy.
