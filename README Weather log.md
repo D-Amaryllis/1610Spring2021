@@ -19,3 +19,4 @@ WEATHER LOG
 1/31/2021 28 degrees, clear skies.
 2/01/2021 its my brothers Birthday today. 32 degrees mostly cloudy.
 2/02/2021 44 degrees, mostly cloudy.
+2/03/2021 31 degrees and clear skies, but it snowed this afternoon.
