@@ -19,3 +19,4 @@ public class DualAxisExamples : MonoBehaviour
         textOutput.text = "Horizontal Value Returned: " +h.ToString("F2") + "\nVertical Value Returned: "+v.ToString("F2");
     }
 }
+s
