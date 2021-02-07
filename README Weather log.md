@@ -22,3 +22,4 @@ WEATHER LOG
 2/03/2021 31 degrees and clear skies, but it snowed this afternoon.
 2/04/2021 32 degrees and cloudy
 2/05/2021 32 degrees and snow.
+2/07/2021 53 degrees and sunny.
