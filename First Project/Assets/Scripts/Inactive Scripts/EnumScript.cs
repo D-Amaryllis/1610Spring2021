@@ -11,12 +11,10 @@ public class EnumScript : MonoBehaviour
         South,
         West
     };
-
+    
     void Start ()
     {
-        Direction myDirection;
-
-        myDirection + Direction.North;
+        Direction myDirection = Direction.North;
     }
 
     Direction ReverseDirection(Direction dir)

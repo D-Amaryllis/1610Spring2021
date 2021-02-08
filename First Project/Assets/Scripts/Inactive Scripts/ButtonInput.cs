@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class KeyInput : MonoBehaviour
+public class ButtonInput : MonoBehaviour
 {
     public GUITexture graphic;
+    public Text textLabel;
     public Texture2D standard;
     public Texture2D downgfx;
     public Texture2D upgfx;
@@ -17,9 +19,9 @@ public class KeyInput : MonoBehaviour
 
     void Update()
     {
-        bool down = Input.GetKeyDown(KeyCode.Space);
-        bool held = Input.GetKey(KeyCode.Space);
-        bool up = Input.GetKeyUp(KeyCode.Space);
+        bool down = Input.GetButtonDown("Jump");
+        bool held = Input.GetButton("Jump");
+        bool up = Input.GetButtonUp("Jump");
 
         if (down)
         {
@@ -27,13 +29,15 @@ public class KeyInput : MonoBehaviour
         }
         else if (held)
         {
-            graphic.texture = standard;
+            graphic.texture = heldgfx;
         }
         else
         {
-            graphic.texture = standard;
-        }
+            {
+                graphic.texture = standard;
+            }
 
-        GUIText.text = " " + down + "\n " + held + "\n " + up;
+            textLabel.text = " " + down + "\n " + held + "\n " + up;
+        }
     }
 }
