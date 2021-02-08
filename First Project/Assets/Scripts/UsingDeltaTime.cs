@@ -14,7 +14,8 @@ public class UsingDeltaTime : MonoBehaviour
         if (countdown <= 0.0f)
             Light.enabled = true;
 
-        if (Input.GetKey(KeyCode.RightArrow)) transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+        if (Input.GetKey(KeyCode.RightArrow)) 
+            transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         
     }
 }

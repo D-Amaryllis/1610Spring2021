@@ -21,24 +21,24 @@ public class SingleCharacterScript : MonoBehaviour
     }
 
 
-    public Stuff myStuff = Stuff(10, 7, 25);
+    public Stuff myStuff = new Stuff(10, 7, 25);
     public float speed;
-    public float turnspeed;
-    public Rigidbody bulletprefab;
+    public float turnSpeed;
+    public Rigidbody bulletPrefab;
     public Transform firePosition;
     public float bulletSpeed;
 
 
     void Update ()
     {
-        ScrollRect.MovementType();
-        NavMeshPolyTypes();
+        Movement();
+        Shoot();
     }
 
     void Movement ()
     {
         float forwardMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        float turnMovement = Input.GetAxis("Horizontal") * turnspeed * Time.deltaTime;
+        float turnMovement = Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime;
 
         transform.Translate(Vector3.forward * forwardMovement);
         transform.Rotate(Vector3.up * turnMovement);
@@ -50,7 +50,7 @@ public class SingleCharacterScript : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && myStuff.bullets > 0)
         {
             Rigidbody bulletInstance =
-                Instantiate(bulletprefab, firePosition.position, firePosition.rotation) as Rigidbody;
+                Instantiate(bulletPrefab, firePosition.position, firePosition.rotation) as Rigidbody;
             bulletInstance.AddForce(firePosition.forward * bulletSpeed);
             myStuff.bullets--;
         }

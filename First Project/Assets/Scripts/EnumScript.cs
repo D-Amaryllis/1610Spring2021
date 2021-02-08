@@ -12,7 +12,7 @@ public class EnumScript : MonoBehaviour
         West
     };
 
-    void Start()
+    void Start ()
     {
         Direction myDirection;
 

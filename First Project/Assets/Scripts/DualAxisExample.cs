@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DualAxisExamples : MonoBehaviour
+public class DualAxisExample : MonoBehaviour
 {
     public float range;
     public GUIText textOutput;
 
 
-    void Update()
+    void Update ()
     {
-        float h + Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical);");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical)");
         float xPos = h * range;
         float yPos = v * range;
 
