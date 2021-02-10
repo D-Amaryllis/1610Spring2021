@@ -25,3 +25,4 @@ WEATHER LOG
 2/07/2021 53 degrees and sunny.
 2/08/2021 43 degrees and Partly cloudy.
 2/09/2021 38 degrees and cloudy.
+2/10/2021 39 degrees and mostly cloudy.
