@@ -28,3 +28,4 @@ WEATHER LOG
 2/10/2021 39 degrees and mostly cloudy.
 2/11/2021 43 degrees and mostly cloudy.
 2/12/2021 44 degreesand cloudy.
+2/13/2021 32 degrees and cloudy.  IT rained and snowed most of the day.
