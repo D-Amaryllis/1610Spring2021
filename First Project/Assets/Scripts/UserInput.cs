@@ -2,21 +2,19 @@
 using System.Collections.Generic;
 using UnityEditorInternal.VersionControl;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UserInput : MonoBehaviour
 {
    public Rigidbody2D ballRigidbody2D;
    public Vector2 direction;
    public Vector2 yDirection;
-
-   void Start()
-   {
-      
-   }
+   public float speed = 3f;
 
    void Update()
    {
+      /*
+       *  direction.x = Input.GetAxis("Horizontal");  <<for Joystick or pressing two arrows at the same time.
+       */
       if (Input.GetKey(KeyCode.RightArrow))
       {
          ballRigidbody2D.AddForce(direction, ForceMode2D.Force);
@@ -27,7 +25,7 @@ public class UserInput : MonoBehaviour
          ballRigidbody2D.AddForce(-direction, ForceMode2D.Force);
       }
 
-      if (Input.GetKey(KeyCode.UpArrow))
+      if (Input.GetButtonDown("Jump"))
       {
          ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
       }
