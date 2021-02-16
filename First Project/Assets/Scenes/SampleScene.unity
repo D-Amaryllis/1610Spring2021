@@ -540,7 +540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballRigidbody2D: {fileID: 1801801959}
   direction: {x: 3, y: 0}
-  yDirection: {x: 0, y: 7}
+  yDirection: {x: 0, y: 10}
 --- !u!114 &1801801964
 MonoBehaviour:
   m_ObjectHideFlags: 0

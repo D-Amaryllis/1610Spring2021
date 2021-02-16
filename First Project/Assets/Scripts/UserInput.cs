@@ -27,7 +27,7 @@ public class UserInput : MonoBehaviour
          ballRigidbody2D.AddForce(-direction, ForceMode2D.Force);
       }
 
-      if (Input.GetKey(KeyCode.UpArrow));
+      if (Input.GetKey(KeyCode.UpArrow))
       {
          ballRigidbody2D.AddForce(yDirection, ForceMode2D.Force);
       }
