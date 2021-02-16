@@ -30,4 +30,4 @@ WEATHER LOG
 2/12/2021 44 degreesand cloudy.
 2/13/2021 32 degrees and cloudy.  IT rained and snowed most of the day.
 2/14/2021 32 degrees and mostly cloudy.
-
+2/16/2021 32 degrees snow showers.
