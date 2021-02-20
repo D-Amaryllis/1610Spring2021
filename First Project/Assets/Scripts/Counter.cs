@@ -1,20 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
+    public int creditValue = 3;
     public int numberCount;
+    public Text counterText;
     
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        numberCount++;
+        numberCount += creditValue;
+        counterText.text = numberCount.ToString();
+        gameObject.SetActive(false);
     }
 }
