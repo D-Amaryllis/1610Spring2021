@@ -6,7 +6,7 @@ using UnityEngine;
 public class UserInput : MonoBehaviour
 {
    public Rigidbody2D ballRigidbody2D;
-   public float speed = 5f;
+   public float speed = 7f;
    public float jumpForce = 300f;
    
    public Vector2 direction;
