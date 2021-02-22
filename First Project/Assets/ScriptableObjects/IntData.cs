@@ -4,4 +4,5 @@
 public class IntData : ScriptableObject
 {
     public int value;
+    
 }
