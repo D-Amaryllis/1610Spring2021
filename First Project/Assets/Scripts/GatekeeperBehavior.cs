@@ -8,14 +8,7 @@ public class GatekeeperBehavior : MonoBehaviour
     public BoolData keyObj;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (keyObj.value)
-        {
-            print(true);
-        }
-        else
-        {
-            print(false);
-        }
+        keyObj.value = true;
+        gameObject.SetActive(false);
     }
     }
-}
