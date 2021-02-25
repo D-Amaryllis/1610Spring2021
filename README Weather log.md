@@ -39,3 +39,4 @@ WEATHER LOG
 2/22/2021 32 degrees and partly cloudy.
 2/23/2021 42 degrees mostly sunny.
 2/24/2021 42 degrees and mostly cloudy.
+2/25/2021 28 degrees and sunny.
