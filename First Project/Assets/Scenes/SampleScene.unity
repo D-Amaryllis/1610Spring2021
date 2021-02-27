@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 1505311486}
   - component: {fileID: 1505311485}
   - component: {fileID: 1505311484}
+  - component: {fileID: 1505311488}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -828,6 +829,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1505311488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505311483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47647ad6827db1f4594bec80ae8cca22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  total: 0
+  cars:
+  - car
+  - mustang
+  weapons:
+  - {fileID: 11400000, guid: 8b9f44a05f2e4bd4493c05f80dfdd76f, type: 2}
+  - {fileID: 11400000, guid: 613791a224293284aa2b228ebbe6b24d, type: 2}
+  - {fileID: 11400000, guid: fbd6a59264c002348b1e34316816a555, type: 2}
+  tests: 0000000000000000000000000000000000000000
 --- !u!1 &1801801958
 GameObject:
   m_ObjectHideFlags: 0

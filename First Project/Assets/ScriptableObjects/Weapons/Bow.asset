@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b0a1628678b5bc40a6767bf15df9498, type: 3}
   m_Name: Bow
   m_EditorClassIdentifier: 
+  powerLevel: 6
