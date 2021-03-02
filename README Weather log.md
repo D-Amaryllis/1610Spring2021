@@ -44,3 +44,4 @@ WEATHER LOG
 2/27/2021 36 degrees and cloudy.
 2/28/2021 28 degrees and mostly cloudy.
 3/01/2021 30 degrees and sunny.
+3/02/2021 42 degrees and partly cloudy.
