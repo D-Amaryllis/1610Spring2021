@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    void Start()
-    {
-    }
+    public float speed = 5.0f;
 
     void Update()
     {
         //Move the vehicle forward
-        transform.Translate(Vector3.forward * Time.deltaTime * 20);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
