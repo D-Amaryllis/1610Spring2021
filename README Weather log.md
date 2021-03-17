@@ -51,3 +51,4 @@ WEATHER LOG
 3/08/2021 62 degrees partly cloudy.
 3/10/2021 40 degrees and partly cloudy.
 3/15/2021 45 degrees and sunny.
+3/16/2021 48 degrees partly cloudy.
