@@ -58,3 +58,4 @@ WEATHER LOG
 3/20/2021 44 degrees and drizzling.
 3/21/2021 39 degrees and mostly cloudy.
 3/22/2021 34 degrees mostly sunny.
+3/23/2021 36 degrees and partly cloudy.
