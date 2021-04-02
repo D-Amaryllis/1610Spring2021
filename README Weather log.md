@@ -63,3 +63,4 @@ WEATHER LOG
 3/26/2021 43 degrees and mostly cloudy.
 3/29/2021 52 degrees and PArtly cloudy.
 3/30/2021 34 degrees and partly cloudy.
+4/02/2021 63 degrees and sunny.
