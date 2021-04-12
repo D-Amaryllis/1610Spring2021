@@ -707,4 +707,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2326a017bc532a64c9912159b0e90730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 723945950}
