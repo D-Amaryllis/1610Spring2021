@@ -66,3 +66,4 @@ WEATHER LOG
 4/02/2021 63 degrees and sunny.
 4/04/2021 54 degrees and cloudy.
 4/06/2021 72 degrees and mostly sunny.
+4/11/2021 45 degrees and clear.  Yikes been awhile sinc eI updated the weather log. What a crazy week.
