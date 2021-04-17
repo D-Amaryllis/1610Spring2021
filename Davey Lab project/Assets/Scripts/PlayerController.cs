@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         powerup = true;
         Debug.Log("Powerup is true");
-        if (powerup == true)
+        if (powerup = true)
         {
             yield return new WaitForSeconds(5);
             powerup = false;
