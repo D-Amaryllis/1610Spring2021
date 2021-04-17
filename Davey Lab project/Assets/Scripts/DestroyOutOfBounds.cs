@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveDown : MonoBehaviour
+public class DestroyOutOfBounds : MonoBehaviour
 {
-    
-    public float speed = 40.0f;
-    
+    public float downBoundary = -5;
     void Start()
     {
         
@@ -15,6 +13,6 @@ public class MoveDown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * Time.deltaTime * speed); 
+        
     }
 }
