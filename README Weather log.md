@@ -72,3 +72,4 @@ WEATHER LOG
 4/14/2021 39 degrees and raining :)
 4/15/2021 36 degrees and cloudy.
 4/16/2021 43 degrees and cloudy.
+4/18/2021 57 degrees and sunny.
