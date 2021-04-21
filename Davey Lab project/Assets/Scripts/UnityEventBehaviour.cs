@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOutOfBounds : MonoBehaviour
+public class UnityEventBehaviour : MonoBehaviour
 {
-    public float downBoundary = -5;
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -13,9 +13,6 @@ public class DestroyOutOfBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z < downBoundary)
-        {
-            Destroy(gameObject);
-        }
+        
     }
 }
