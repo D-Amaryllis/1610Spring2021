@@ -76,3 +76,4 @@ WEATHER LOG
 4/19/2021 55 degrees and sunny.
 4/20/2021 48 degrees adn clear skies.
 4/21/2021 48 degrees and a light drizzle.
+4/22/2021 48 degrees and sunny.
