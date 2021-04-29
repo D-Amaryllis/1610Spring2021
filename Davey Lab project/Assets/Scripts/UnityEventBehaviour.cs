@@ -5,24 +5,10 @@ using UnityEngine;
 
 public class UnityEventBehaviour : MonoBehaviour
 {
-    [SerializeField] private UnityEvent myTrigger;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public UnityEvent triggerEnterEvent;
+   
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            myTrigger.Invoke();
-        }
+        triggerEnterEvent.Invoke();
     }
 }
