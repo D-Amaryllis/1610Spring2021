@@ -1,4 +1,4 @@
-WEATHER LOG
+dWEATHER LOG
 
 1/14/2021 warmer than usual, but cloudy.
 1/15/2021 25 degrees and sunny.
@@ -82,3 +82,4 @@ WEATHER LOG
 4/30/2021 70 degrees and clear.
 5/01/2021 77 degrees and sunny.
 5/03/2021 55 degrees and partly cloudy.
+5/04/2021 58 degrees and clear.
